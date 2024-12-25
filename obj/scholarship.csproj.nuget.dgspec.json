@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/akshaypisal/Documents/scholarship/scholarship/scholarship.csproj": {}
+    "/Users/akshaypisal/Documents/GitHub/Scholarship/scholarship.csproj": {}
   },
   "projects": {
-    "/Users/akshaypisal/Documents/scholarship/scholarship/scholarship.csproj": {
+    "/Users/akshaypisal/Documents/GitHub/Scholarship/scholarship.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/akshaypisal/Documents/scholarship/scholarship/scholarship.csproj",
+        "projectUniqueName": "/Users/akshaypisal/Documents/GitHub/Scholarship/scholarship.csproj",
         "projectName": "scholarship",
-        "projectPath": "/Users/akshaypisal/Documents/scholarship/scholarship/scholarship.csproj",
+        "projectPath": "/Users/akshaypisal/Documents/GitHub/Scholarship/scholarship.csproj",
         "packagesPath": "/Users/akshaypisal/.nuget/packages/",
-        "outputPath": "/Users/akshaypisal/Documents/scholarship/scholarship/obj/",
+        "outputPath": "/Users/akshaypisal/Documents/GitHub/Scholarship/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/akshaypisal/.nuget/NuGet/NuGet.Config"
