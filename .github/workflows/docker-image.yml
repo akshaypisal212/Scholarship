@@ -30,9 +30,9 @@ jobs:
     # Build the Docker image and tag it
     - name: Build Docker image
       run: |
-        docker build -t my-docker-image:${{ github.sha }} .
+        docker build -t exploredockerid/scholarship:${{ github.sha }} .
 
     # Push the Docker image to a registry
     - name: Push Docker image to Docker Hub
       run: |
-        docker push my-docker-image:${{ github.sha }}
+        docker push exploredockerid/scholarship:${{ github.sha }}
