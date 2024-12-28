@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: scholarship
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: scholarship
+  template:
+    metadata:
+      labels:
+        app: scholarship
+    spec:
+      containers:
+      - name: scholarship
+        image: exploredockerid/scholarship:0353afa75d9341f77e6877ee667914747e4f1602
+        ports:
+        - containerPort: 80
