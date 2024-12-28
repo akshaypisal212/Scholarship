@@ -18,5 +18,5 @@ RUN dotnet publish "scholarship.csproj" -c Release -o /app/publish
 # Copy the build output to the base image
 FROM base AS final
 WORKDIR /app
-#COPY --from=publish /app/publish .
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "scholarship.dll"]
